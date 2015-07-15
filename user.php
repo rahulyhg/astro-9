@@ -268,10 +268,12 @@ require_once('php_scripts/function_observation_list.php');
 echo return_observation_list($dbc, 5, $user_id, 'user');
 ?>
 <h2>Recent Pictures</h2>
+<div class="pictures">
 <?php
 require_once('php_scripts/function_picture_list.php');
 echo return_picture_list($dbc, 3, $user_id, 'user');
 ?>
+</div>
 <h2>Recent Comments</h2>
 <?php
 require_once('php_scripts/function_comment_list.php');

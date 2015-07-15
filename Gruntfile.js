@@ -76,14 +76,14 @@ module.exports = function(grunt) {
           style: 'compressed'
         },
         files: {
-          'default.css': 'default.scss',
+          'style.css': 'style.scss',
           'print.css': 'print.scss',
           'handheld_800.css': 'handheld_800.scss',
         }
       }
     },
-    watch: {
-      scripts: {
+    watch: 
+{      scripts: {
         files: ['**/*.php', '**/*.html'],
         tasks: ['ftpush:build'],
         options: {

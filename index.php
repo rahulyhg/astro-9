@@ -124,14 +124,15 @@ else {
 <head>
 <title>Astronomy - Niels Riekert<?php if(!empty($page_title)){ echo ' | ' . $page_title;}?></title>
 <meta http-equiv="Content-Language" content="nl" />
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="description" content="<?php echo $page_meta_description; ?>" />
 <meta name="keywords" content="<?php echo $page_meta_keywords; ?>" />
-<link rel="stylesheet" href="default.css" media="screen" />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="style.css" media="screen" />
 <link rel="stylesheet" href="default.css" media="print" />
 <link rel="stylesheet" href="print.css" media="print" />
 <link rel='stylesheet' media='screen and (max-width: 800px)' href='handheld_800.css' />
-<link rel="stylesheet" href="handheld.css" media="handheld" />
 
 <script type="text/javascript">
 

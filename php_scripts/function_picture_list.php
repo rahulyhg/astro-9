@@ -37,9 +37,6 @@ function return_picture_list($dbc, $max_pictures, $id, $select_type){
 	while($row = mysqli_fetch_array($table_id)){
 		$counter ++;
 		$return_data .= '<div class="picture" style="background-image: url(\'' . SITE_PICTURES_DIR . 'thumbs/' . $row['picture_thumb_url']  .'\')';
-		if(is_int($counter / 3)){
-			$return_data .= '; margin-right: 0px';
-		}
 		$return_data .= ';">' . "\n";
 		$return_data .= '<h3><a href="?p=picture&amp;picture_id=' . $row['picture_id'] . '" >' . $row['picture_name'] . '</a></h3>' . "\n";
 		$return_data .= '<div class="information">' . "\n";

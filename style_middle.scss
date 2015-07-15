@@ -1,0 +1,21 @@
+.picture,
+.picture:nth-child(2n+1),
+.picture:nth-child(-n+2) {
+ width: 32%;
+ padding-bottom: 32%;
+ clear: none;
+ margin-left: 2%;
+}
+
+.picture:nth-child(3n+1) {
+ margin-left: 0;
+ clear: left;
+}
+
+.picture:nth-child(-n+3) {
+ margin-top: 0;
+}
+
+#content .description {
+ padding: 0 300px 0 10px;
+}
