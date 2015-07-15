@@ -89,20 +89,24 @@ img + a {
  height: 54px;
 }
 
-#content table td, #content table th {
+#content table td,
+#content table th {
  text-align: left;
  padding: 4px 12px;
+ vertical-align: middle;
 }
 
 #content table th {
  border-bottom: 2px solid #000000;
 }
 
-#content table tr:hover, #content table th {
+#content table tr:hover,
+#content table th {
  background-color: #262626;
 }
 
-#content h1 .date, #content td .date {
+#content h1 .date,
+#content td .date {
  line-height: 14px;
  font-weight: normal;
  width: 40px;
