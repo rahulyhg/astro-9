@@ -1,0 +1,21 @@
+Menu
+- Tijd bereik selecteren
+- Icoontje veranderen op: device, type device, user en type object.
+- Alleen bepaalde soorten laten zien op: user, type object, device type device.
+- balk laten zien met uiteinden eerste observatie en laatste + % huidige bereik kleuren.
+
+Map
+- Icoontje voor meerder locaties op 1 plek + uitklap of optie voor observaties per nacht / per observatie.
+ * Kiesen tussen: individuele locaties / per nacht(per gebruiker) en bij beide uitklap kunnen activeren (= ander icoontje + counter)
+- locations counter (in map)
+- locations timeline (in map)
+- Ballon met de volgende gegevens
+ * Naam object
+ * User
+ * Device used
+ * Datum
+ * Vergroting
+ * Level
+ * Type object
+ * Magnitude
+ * Notes

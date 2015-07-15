@@ -1,0 +1,12 @@
+- object markerings systeem
+	#
+- observatie markerings systeem
+	#zichtbaarheidsniveau
+		*lvl 1: net zichtbaar (vlek/punt: abstracte vorm)
+		*lvl 2: object bestaat uit meerdere delen (bv kern van sterrenstelsel met nevel er om heen of bolvorm planeet)
+		*lvl 3: duidelijk zichtbare details (object is (net) herkenbaar van foto's van hubble)
+		*lvl 4(?): object is duidelijk herkenbaar van hubble foto's 
+		*lvl 5(?): object bevat kleur (mits planeet) en is zelfs herkenbaar voor een leek als men eerder een hubble foto heeft gezien
+- welke objecten zijn op het moment het beste te zien
+- afbeeldingen bij observatie invoegen
+- verder uitwerken profiel pagina
