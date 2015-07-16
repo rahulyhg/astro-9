@@ -42,8 +42,8 @@ if(!empty($row['object_url_wikipedia'])){
 	echo ' <a href="' . $row['object_url_wikipedia'] . '"><img src="images/link_wiki.png" alt="wikipedia_link" /></a>';
 }
 ?></h1>
-<script src="js_scripts/utils.js"></script>
-<script src="js_scripts/obs_graph.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/obs_graph.js"></script>
 <canvas id="observations_graph" width="500" height="250">
 	<p>This browser doesn't know Canvas.</p>
 </canvas>
@@ -138,9 +138,12 @@ else {
 <h2>Pictures</h2>
 <?php
 require_once('php_scripts/function_picture_list.php');
+?>
+<div class="grid-overview">
+<?php
 echo return_picture_list($dbc, '', $object_id, 'astronomical_object');
 ?>
-<div class="clear"></div> 
+</div>
 
 <!--<h2>Comments</h2>-->
 <?php

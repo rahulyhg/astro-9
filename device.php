@@ -91,7 +91,13 @@ if($device_purpose == 'picture' || $device_purpose == 'observation&picture'){
 	echo '<h2>Pictures with this device</h2>' . "\n";
 	require_once('php_scripts/tabular_data_functions.php');
 	require_once('php_scripts/function_picture_list.php');
-	echo return_picture_list($dbc, '', $device_id, strtolower($device_type_name));
-	echo '<div class="clear"></div>' . "\n";
+	?>
+	<div class="grid-overview">
+		<?php
+		echo return_picture_list($dbc, '', $device_id, strtolower($device_type_name));
+		echo '<div class="clear"></div>' . "\n";
+		?>
+	</div>
+	<?php
 }
 ?>
